@@ -1,0 +1,16 @@
+1. Create GitHub repo (dev lead creates staging branch and protect master and staging)
+2. Invite team members
+3. Members clone the repo to their local machine
+4. git checkout - b yourownbranch
+5. make some changes
+6. git add .
+7. git commit -m "comments"
+8. git push origin yourownbranch
+9. create pull request to staging
+10. dev lead merge pull request to staging
+11. git checkout staging
+12. git pull
+13. git checkout yourownbranch
+14. git merge staging
+15. make some changes
+16. do 5 - 15 again
